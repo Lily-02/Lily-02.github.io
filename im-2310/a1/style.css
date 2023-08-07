@@ -1,0 +1,101 @@
+body {
+    color: forestgreen;
+    background-color: rgba(235, 236, 176, 0.709); 
+}
+
+
+
+a:visited {
+    color: forestgreen;
+}
+
+h1 {
+    max-width: fit-content;
+    font-size: 2rem;
+    margin: 5px auto;
+    margin-bottom: 5px;
+    text-shadow: 3px 6px 7px rgb(215, 181, 134); 
+    font-family: sans-serif;
+}
+h2 {
+    max-width: fit-content;
+    font-size: 1rem;
+    color: #c7a549;
+    margin: 5px auto;
+    margin-bottom: 30px;
+   
+}
+
+h3 {
+   
+    color: forestgreen;
+    text-shadow: 3px 6px 8px rgb(175, 148, 93); 
+    font-size: larger;
+    font-family: sans-serif;
+    width: 90%;      /* The width of the H3 element will be 85% of its containing element */
+    margin: 0 auto;
+    text-align: left;
+    margin: 20px auto;
+}
+h4 {
+   
+    color: forestgreen;
+    text-shadow: 3px 6px 8px rgb(175, 148, 93); 
+    font-size: medium;
+    font-family: sans-serif;
+    width: 90%;      /* The width of the H3 element will be 85% of its containing element */
+    margin: 0 auto;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 10px;
+}
+
+p  {
+ 
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+ul {
+    color: rgb(14, 14, 13);
+    font-family: sans-serif;
+    text-align: left;
+}
+strong{
+    font-weight: bolder;
+    color: rgb(50, 48, 30);
+   
+}
+
+audio:hover {transform: scale(1.1);filter: drop-shadow(2px 3px 3px #333);}
+
+
+section {
+    max-width: 85%;
+    display: block;
+    /* background-color:  rgba(235, 236, 176, 0.709); */
+    border-style: solid;
+    border-color: #c7a549;
+    border-width: 2px;
+    padding: 10px;
+    /* padding-bottom: 50px; */
+    margin: 0 auto;
+    /* margin-bottom: 50px; */
+    overflow: auto;
+    box-shadow: 10px 5px 5px #b9ab98;
+}
+
+div {
+    margin: 40px;
+}
+
+img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+ 
